@@ -55,7 +55,7 @@ C7 Core (src/c7_core/)
 
 This is the minimal, purified, modality-agnostic kernel of C7.
 It contains:
-
+```
 ✔ 
 GRSCState
 
@@ -80,7 +80,7 @@ Short-term transition memory supporting analysis & meta-loops.
 config.py
 
 Centralized rates & initial conditions.
-
+```
 ⚠ Important:
 This folder contains zero modality-specific logic.
 No Audio, no NLP, no vision — just the pure cognitive model.
@@ -109,6 +109,7 @@ More bindings (text, multimodal, sensor-based) can be added later.
 Phases — The Full Evolution Log (phases/)
 
 This folder contains 47 original .md files, documenting the entire creation path of C7:
+```
 •	early GRSC sketches
 •	experiment loops
 •	discarded approaches
@@ -116,7 +117,7 @@ This folder contains 47 original .md files, documenting the entire creation path
 •	the road that led to AudioBrain v1
 •	reasoning behind configuration values
 •	and refinement of Observer/Decoherence logic
-
+```
 Nothing in this folder should be deleted or rewritten.
 New phases should be added as new files.
 
