@@ -159,11 +159,11 @@ The repository is designed to expand cleanly:
  ```
 🏁 
 Notes
-
+```
 This repository intentionally separates:
 •	Core logic (stable, clean)
 •	Bindings (replaceable, experiment-driven)
 •	Phases (historical / scientific record)
-
+```
 This separation ensures scientific transparency while allowing rapid evolution.
  
