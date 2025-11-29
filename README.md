@@ -10,13 +10,14 @@ This repository represents:
  
 🔥 
 Repository Structure
+
 C7-core/
 ├── phases/               # 47 raw phase files (design evolution)
 │   └── *.md
 │
 ├── src/
 │   ├── c7_core/          # The modality-agnostic core architecture
-│   │   ├── __init__.py
+│   │   ├── init.py
 │   │   ├── config.py
 │   │   ├── grsc_state.py
 │   │   ├── observer.py
@@ -24,7 +25,7 @@ C7-core/
 │   │   └── memory_buffer.py
 │   │
 │   └── c7_bindings/      # Implementations built *on top of* the core
-│       ├── __init__.py
+│       ├── init.py
 │       └── audio_brain_v1.py
 │
 ├── LICENSE
