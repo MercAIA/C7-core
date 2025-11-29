@@ -150,11 +150,12 @@ This project is licensed under the Apache 2.0 License.
 Future Directions
 
 The repository is designed to expand cleanly:
+```
 •	🔹 New modulators: emotion, context, temporal consistency
 •	🔹 New bindings: multimodal, sensor-driven, autonomous agents
 •	🔹 Formal GRSC dynamics model
 •	🔹 Integration with higher-level C7 systems
- 
+ ```
 🏁 
 Notes
 
