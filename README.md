@@ -8,7 +8,7 @@ This repository represents:
 •	the binding layer (e.g., AudioBrain v1),
 •	and the complete evolution log of the architecture (phases/).
  
-🔥 
+```
 Repository Structure
 
 C7-core/
@@ -30,7 +30,7 @@ C7-core/
 │
 ├── LICENSE
 └── README.md
- 
+``` 
 🧠 
 What is C7? (High-Level)
 
