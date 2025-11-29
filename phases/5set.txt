@@ -1,0 +1,274 @@
+C:\Users\Lenovo\Desktop>py c7_phase5_persistent.py
+Loaded existing brain from file.
+
+Starting Phase 5 training for 300 steps...
+Step 50/300 - avg loss: 0.0034
+Step 100/300 - avg loss: 0.1944
+Step 150/300 - avg loss: 0.3740
+Step 200/300 - avg loss: 0.0052
+Step 250/300 - avg loss: 0.0992
+Step 300/300 - avg loss: 0.0040
+Phase 5 training finished.
+
+Brain weights saved.
+
+
+========== TEST AFTER PHASE 5 TRAINING ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.0, 2.0, 3.0]
+TextFrontend Output  : [12.0, 12.0, 12.0]
+ImageFrontend Output : [0.0, 2.0, 4.0]
+
+=== Emb-C Collapsed Vector ===
+[3.0, 2.0, 3.0, 12.0, 12.0, 12.0, 0.0, 2.0, 4.0]
+
+=== Prism-7 Routing ===
+Energies       : {'audio': 8.0, 'text': 36.0, 'image': 6.0}
+Dominant       : text
+Intensity      : 0.720
+Active arrays  : [1, 3, 5]
+
+=== Array Outputs (RAW) ===
+A1: 49.9302
+A3: 49.9287
+A5: 49.8138
+A7 RAW (mean)  : 49.8909
+
+=== Array Outputs (SYNCED) ===
+A1 (synced): 49.9302
+A3 (synced): 49.9287
+A5 (synced): 49.8138
+A7 SYNCED      : 49.8909
+
+=== Target & Errors ===
+Target (sum Emb-C): 50.0000
+Error RAW   (A7_raw - target):    -0.1091
+Error SYNC  (A7_sync - target):   -0.1091
+
+==========================================
+
+C:\Users\Lenovo\Desktop>py c7_phase5_persistent.py
+Loaded existing brain from file.
+
+Starting Phase 5 training for 300 steps...
+Step 50/300 - avg loss: 0.2942
+Step 100/300 - avg loss: 0.5244
+Step 150/300 - avg loss: 0.0615
+Step 200/300 - avg loss: 0.0229
+Step 250/300 - avg loss: 0.0053
+Step 300/300 - avg loss: 0.0029
+Phase 5 training finished.
+
+Brain weights saved.
+
+
+========== TEST AFTER PHASE 5 TRAINING ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.0, 2.0, 3.0]
+TextFrontend Output  : [12.0, 12.0, 12.0]
+ImageFrontend Output : [0.0, 2.0, 4.0]
+
+=== Emb-C Collapsed Vector ===
+[3.0, 2.0, 3.0, 12.0, 12.0, 12.0, 0.0, 2.0, 4.0]
+
+=== Prism-7 Routing ===
+Energies       : {'audio': 8.0, 'text': 36.0, 'image': 6.0}
+Dominant       : text
+Intensity      : 0.720
+Active arrays  : [1, 3, 5]
+
+=== Array Outputs (RAW) ===
+A1: 49.9510
+A3: 49.9580
+A5: 49.7447
+A7 RAW (mean)  : 49.8846
+
+=== Array Outputs (SYNCED) ===
+A1 (synced): 49.9510
+A3 (synced): 49.9580
+A5 (synced): 49.7447
+A7 SYNCED      : 49.8846
+
+=== Target & Errors ===
+Target (sum Emb-C): 50.0000
+Error RAW   (A7_raw - target):    -0.1154
+Error SYNC  (A7_sync - target):   -0.1154
+
+==========================================
+
+C:\Users\Lenovo\Desktop>py c7_phase5_persistent.py
+Loaded existing brain from file.
+
+Starting Phase 5 training for 300 steps...
+Step 50/300 - avg loss: 2.0655
+Step 100/300 - avg loss: 0.0189
+Step 150/300 - avg loss: 0.1299
+Step 200/300 - avg loss: 0.0022
+Step 250/300 - avg loss: 0.1326
+Step 300/300 - avg loss: 0.7854
+Phase 5 training finished.
+
+Brain weights saved.
+
+
+========== TEST AFTER PHASE 5 TRAINING ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.0, 2.0, 3.0]
+TextFrontend Output  : [12.0, 12.0, 12.0]
+ImageFrontend Output : [0.0, 2.0, 4.0]
+
+=== Emb-C Collapsed Vector ===
+[3.0, 2.0, 3.0, 12.0, 12.0, 12.0, 0.0, 2.0, 4.0]
+
+=== Prism-7 Routing ===
+Energies       : {'audio': 8.0, 'text': 36.0, 'image': 6.0}
+Dominant       : text
+Intensity      : 0.720
+Active arrays  : [1, 3, 5]
+
+=== Array Outputs (RAW) ===
+A1: 49.9445
+A3: 49.9580
+A5: 49.9324
+A7 RAW (mean)  : 49.9450
+
+=== Array Outputs (SYNCED) ===
+A1 (synced): 49.9445
+A3 (synced): 49.9580
+A5 (synced): 49.9324
+A7 SYNCED      : 49.9450
+
+=== Target & Errors ===
+Target (sum Emb-C): 50.0000
+Error RAW   (A7_raw - target):    -0.0550
+Error SYNC  (A7_sync - target):   -0.0550
+
+==========================================
+
+C:\Users\Lenovo\Desktop>py c7_phase5_persistent.py
+Loaded existing brain from file.
+
+Starting Phase 5 training for 300 steps...
+Step 50/300 - avg loss: 0.0017
+Step 100/300 - avg loss: 0.0116
+Step 150/300 - avg loss: 0.0249
+Step 200/300 - avg loss: 0.0129
+Step 250/300 - avg loss: 0.0300
+Step 300/300 - avg loss: 0.0030
+Phase 5 training finished.
+
+Brain weights saved.
+
+
+========== TEST AFTER PHASE 5 TRAINING ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.0, 2.0, 3.0]
+TextFrontend Output  : [12.0, 12.0, 12.0]
+ImageFrontend Output : [0.0, 2.0, 4.0]
+
+=== Emb-C Collapsed Vector ===
+[3.0, 2.0, 3.0, 12.0, 12.0, 12.0, 0.0, 2.0, 4.0]
+
+=== Prism-7 Routing ===
+Energies       : {'audio': 8.0, 'text': 36.0, 'image': 6.0}
+Dominant       : text
+Intensity      : 0.720
+Active arrays  : [1, 3, 5]
+
+=== Array Outputs (RAW) ===
+A1: 49.9281
+A3: 49.9439
+A5: 49.8807
+A7 RAW (mean)  : 49.9176
+
+=== Array Outputs (SYNCED) ===
+A1 (synced): 49.9281
+A3 (synced): 49.9439
+A5 (synced): 49.8807
+A7 SYNCED      : 49.9176
+
+=== Target & Errors ===
+Target (sum Emb-C): 50.0000
+Error RAW   (A7_raw - target):    -0.0824
+Error SYNC  (A7_sync - target):   -0.0824
+
+==========================================
+
+C:\Users\Lenovo\Desktop>py c7_phase5_persistent.py
+Loaded existing brain from file.
+
+Starting Phase 5 training for 300 steps...
+Step 50/300 - avg loss: 0.0035
+Step 100/300 - avg loss: 0.0043
+Step 150/300 - avg loss: 0.6272
+Step 200/300 - avg loss: 0.3477
+Step 250/300 - avg loss: 0.0654
+Step 300/300 - avg loss: 0.0028
+Phase 5 training finished.
+
+Brain weights saved.
+
+
+========== TEST AFTER PHASE 5 TRAINING ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.0, 2.0, 3.0]
+TextFrontend Output  : [12.0, 12.0, 12.0]
+ImageFrontend Output : [0.0, 2.0, 4.0]
+
+=== Emb-C Collapsed Vector ===
+[3.0, 2.0, 3.0, 12.0, 12.0, 12.0, 0.0, 2.0, 4.0]
+
+=== Prism-7 Routing ===
+Energies       : {'audio': 8.0, 'text': 36.0, 'image': 6.0}
+Dominant       : text
+Intensity      : 0.720
+Active arrays  : [1, 3, 5]
+
+=== Array Outputs (RAW) ===
+A1: 49.9190
+A3: 49.9454
+A5: 49.9119
+A7 RAW (mean)  : 49.9254
+
+=== Array Outputs (SYNCED) ===
+A1 (synced): 49.9190
+A3 (synced): 49.9454
+A5 (synced): 49.9119
+A7 SYNCED      : 49.9254
+
+=== Target & Errors ===
+Target (sum Emb-C): 50.0000
+Error RAW   (A7_raw - target):    -0.0746
+Error SYNC  (A7_sync - target):   -0.0746
+
+==========================================

@@ -1,0 +1,285 @@
+
+C:\Users\Lenovo\Desktop>python c7_phase6_persistent_clean.py
+Loaded existing brain from file.
+Starting Phase 6 PERSISTENT (CLEAN) training for 300 steps...
+
+Step 50/300 - avg loss: 1.9846 - phase: Boundary A→B - trigger: False
+Step 100/300 - avg loss: 1.2508 - phase: Boundary A→B - trigger: False
+Step 150/300 - avg loss: 1.2717 - phase: Boundary B→A - trigger: False
+Step 200/300 - avg loss: 1.3099 - phase: Boundary B→A - trigger: False
+Step 250/300 - avg loss: 1.4785 - phase: Boundary B→A - trigger: False
+Step 300/300 - avg loss: 1.3736 - phase: Boundary B→A - trigger: False
+
+Phase 6 PERSISTENT (CLEAN) training finished.
+
+Brain weights saved.
+========== TEST AFTER PHASE 6 PERSISTENT (CLEAN) ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.  1.5 3.5]
+TextFrontend Output  : [15. 16. 14.]
+ImageFrontend Output : [-1.  2.  1.]
+
+=== Emb-C & Intensity ===
+Emb-C Collapsed Vector: [ 3.   1.5  3.5 15.  16.  14.  -1.   2.   1. ]
+Intensity             : 0.7691405206098028
+Energies              : {'audio': 4.847679857416329, 'text': 26.019223662515376, 'image': 2.449489742783178}
+
+=== Arrays & A7 Output ===
+A1: 93.9668
+A3: 22.1313
+A5: 52.7597
+A7 (final): 56.2859
+Target(sum Emb-C): 55.0000
+Error (A7 - target): 1.2859
+
+=== Phase Manager State (after training) ===
+Phase: Boundary B→A
+
+=== Temporal Memory Summary ===
+History length      : 10
+Avg A7 in memory    : 35.56979591276614
+Avg Intensity memory: 0.7057101971851135
+
+=== Meta-Observer Info ===
+var_arrays: 866.2723628789041
+error: 1.2859171134606058
+abs_error: 1.2859171134606058
+stability_score: 0.3697737029054333
+recent_avg_intensity: 0.7057101971851135
+phase_state: Boundary B→A
+
+=============================================
+
+C:\Users\Lenovo\Desktop>python c7_phase6_persistent_clean.py
+Loaded existing brain from file.
+Starting Phase 6 PERSISTENT (CLEAN) training for 300 steps...
+
+Step 50/300 - avg loss: 1.3336 - phase: Boundary A→B - trigger: False
+Step 100/300 - avg loss: 0.8531 - phase: Boundary A→B - trigger: False
+Step 150/300 - avg loss: 0.8800 - phase: Boundary B→A - trigger: False
+Step 200/300 - avg loss: 0.9438 - phase: Boundary B→A - trigger: False
+Step 250/300 - avg loss: 1.0534 - phase: Boundary B→A - trigger: False
+Step 300/300 - avg loss: 0.9539 - phase: Boundary B→A - trigger: False
+
+Phase 6 PERSISTENT (CLEAN) training finished.
+
+Brain weights saved.
+========== TEST AFTER PHASE 6 PERSISTENT (CLEAN) ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.  1.5 3.5]
+TextFrontend Output  : [15. 16. 14.]
+ImageFrontend Output : [-1.  2.  1.]
+
+=== Emb-C & Intensity ===
+Emb-C Collapsed Vector: [ 3.   1.5  3.5 15.  16.  14.  -1.   2.   1. ]
+Intensity             : 0.7691405206098028
+Energies              : {'audio': 4.847679857416329, 'text': 26.019223662515376, 'image': 2.449489742783178}
+
+=== Arrays & A7 Output ===
+A1: 93.7397
+A3: 21.9042
+A5: 52.5326
+A7 (final): 56.0588
+Target(sum Emb-C): 55.0000
+Error (A7 - target): 1.0588
+
+=== Phase Manager State (after training) ===
+Phase: Boundary B→A
+
+=== Temporal Memory Summary ===
+History length      : 10
+Avg A7 in memory    : 35.61531403448769
+Avg Intensity memory: 0.7057101971851135
+
+=== Meta-Observer Info ===
+var_arrays: 866.2723628789046
+error: 1.058812361678882
+abs_error: 1.058812361678882
+stability_score: 0.3782675236946063
+recent_avg_intensity: 0.7057101971851135
+phase_state: Boundary B→A
+
+=============================================
+
+C:\Users\Lenovo\Desktop>python c7_phase6_persistent_clean.py
+Loaded existing brain from file.
+Starting Phase 6 PERSISTENT (CLEAN) training for 300 steps...
+
+Step 50/300 - avg loss: 0.9216 - phase: Boundary A→B - trigger: False
+Step 100/300 - avg loss: 0.5962 - phase: Boundary A→B - trigger: False
+Step 150/300 - avg loss: 0.6247 - phase: Boundary B→A - trigger: False
+Step 200/300 - avg loss: 0.6927 - phase: Boundary B→A - trigger: False
+Step 250/300 - avg loss: 0.7636 - phase: Boundary B→A - trigger: False
+Step 300/300 - avg loss: 0.6740 - phase: Boundary B→A - trigger: False
+
+Phase 6 PERSISTENT (CLEAN) training finished.
+
+Brain weights saved.
+========== TEST AFTER PHASE 6 PERSISTENT (CLEAN) ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.  1.5 3.5]
+TextFrontend Output  : [15. 16. 14.]
+ImageFrontend Output : [-1.  2.  1.]
+
+=== Emb-C & Intensity ===
+Emb-C Collapsed Vector: [ 3.   1.5  3.5 15.  16.  14.  -1.   2.   1. ]
+Intensity             : 0.7691405206098028
+Energies              : {'audio': 4.847679857416329, 'text': 26.019223662515376, 'image': 2.449489742783178}
+
+=== Arrays & A7 Output ===
+A1: 93.5601
+A3: 21.7247
+A5: 52.3530
+A7 (final): 55.8793
+Target(sum Emb-C): 55.0000
+Error (A7 - target): 0.8793
+
+=== Phase Manager State (after training) ===
+Phase: Boundary B→A
+
+=== Temporal Memory Summary ===
+History length      : 10
+Avg A7 in memory    : 35.66227702533956
+Avg Intensity memory: 0.7057101971851135
+
+=== Meta-Observer Info ===
+var_arrays: 866.2723628789049
+error: 0.8792821988983164
+abs_error: 0.8792821988983164
+stability_score: 0.3851198930054522
+recent_avg_intensity: 0.7057101971851135
+phase_state: Boundary B→A
+
+=============================================
+
+C:\Users\Lenovo\Desktop>python c7_phase6_persistent_clean.py
+Loaded existing brain from file.
+Starting Phase 6 PERSISTENT (CLEAN) training for 300 steps...
+
+Step 50/300 - avg loss: 0.6518 - phase: Boundary A→B - trigger: False
+Step 100/300 - avg loss: 0.4255 - phase: Boundary A→B - trigger: False
+Step 150/300 - avg loss: 0.4526 - phase: Boundary B→A - trigger: False
+Step 200/300 - avg loss: 0.5156 - phase: Boundary B→A - trigger: False
+Step 250/300 - avg loss: 0.5609 - phase: Boundary B→A - trigger: False
+Step 300/300 - avg loss: 0.4830 - phase: Boundary B→A - trigger: False
+
+Phase 6 PERSISTENT (CLEAN) training finished.
+
+Brain weights saved.
+========== TEST AFTER PHASE 6 PERSISTENT (CLEAN) ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.  1.5 3.5]
+TextFrontend Output  : [15. 16. 14.]
+ImageFrontend Output : [-1.  2.  1.]
+
+=== Emb-C & Intensity ===
+Emb-C Collapsed Vector: [ 3.   1.5  3.5 15.  16.  14.  -1.   2.   1. ]
+Intensity             : 0.7691405206098028
+Energies              : {'audio': 4.847679857416329, 'text': 26.019223662515376, 'image': 2.449489742783178}
+
+=== Arrays & A7 Output ===
+A1: 93.4167
+A3: 21.5812
+A5: 52.2096
+A7 (final): 55.7358
+Target(sum Emb-C): 55.0000
+Error (A7 - target): 0.7358
+
+=== Phase Manager State (after training) ===
+Phase: Boundary B→A
+
+=== Temporal Memory Summary ===
+History length      : 10
+Avg A7 in memory    : 35.70819219884267
+Avg Intensity memory: 0.7057101971851135
+
+=== Meta-Observer Info ===
+var_arrays: 866.2723628789066
+error: 0.7358205190704226
+abs_error: 0.7358205190704226
+stability_score: 0.3906847091354361
+recent_avg_intensity: 0.7057101971851135
+phase_state: Boundary B→A
+
+=============================================
+
+C:\Users\Lenovo\Desktop>python c7_phase6_persistent_clean.py
+Loaded existing brain from file.
+Starting Phase 6 PERSISTENT (CLEAN) training for 300 steps...
+
+Step 50/300 - avg loss: 0.4696 - phase: Boundary A→B - trigger: False
+Step 100/300 - avg loss: 0.3090 - phase: Boundary A→B - trigger: False
+Step 150/300 - avg loss: 0.3333 - phase: Boundary B→A - trigger: False
+Step 200/300 - avg loss: 0.3877 - phase: Boundary B→A - trigger: False
+Step 250/300 - avg loss: 0.4163 - phase: Boundary B→A - trigger: False
+Step 300/300 - avg loss: 0.3501 - phase: Boundary B→A - trigger: False
+
+Phase 6 PERSISTENT (CLEAN) training finished.
+
+Brain weights saved.
+========== TEST AFTER PHASE 6 PERSISTENT (CLEAN) ==========
+
+=== Raw Inputs ===
+Audio Input : [2, 1, 2]
+Text Input  : [3, 3, 3]
+Image Input : [-1, 0, 1]
+
+=== Frontend Outputs ===
+AudioFrontend Output : [3.  1.5 3.5]
+TextFrontend Output  : [15. 16. 14.]
+ImageFrontend Output : [-1.  2.  1.]
+
+=== Emb-C & Intensity ===
+Emb-C Collapsed Vector: [ 3.   1.5  3.5 15.  16.  14.  -1.   2.   1. ]
+Intensity             : 0.7691405206098028
+Energies              : {'audio': 4.847679857416329, 'text': 26.019223662515376, 'image': 2.449489742783178}
+
+=== Arrays & A7 Output ===
+A1: 93.3009
+A3: 21.4654
+A5: 52.0938
+A7 (final): 55.6200
+Target(sum Emb-C): 55.0000
+Error (A7 - target): 0.6200
+
+=== Phase Manager State (after training) ===
+Phase: Boundary B→A
+
+=== Temporal Memory Summary ===
+History length      : 10
+Avg A7 in memory    : 35.75167535167623
+Avg Intensity memory: 0.7057101971851135
+
+=== Meta-Observer Info ===
+var_arrays: 866.2723628789059
+error: 0.62002249071503
+abs_error: 0.62002249071503
+stability_score: 0.39523505625238975
+recent_avg_intensity: 0.7057101971851135
+phase_state: Boundary B→A
+
+=============================================
