@@ -36,16 +36,18 @@ What is C7? (High-Level)
 
 The C7 Architecture is a cognitive-state engine based on a
 4-variable internal state:
+```
 •	G — Grounding
 •	R — Reward / Relevance
 •	S — Stability
 •	C — Coherence
-
+```
+```
 The state evolves through:
 1.	Observation
 2.	Decoherence Update Dynamics
 3.	Short-Term Memory Integration
-
+```
 The entire conceptual evolution is preserved inside phases/.
  
 🧩 
