@@ -94,13 +94,13 @@ Currently implemented:
 
 🔹 
 AudioBrain v1
-
+```
 A simple loop that:
 1.	Observes input
 2.	Updates GRSC
 3.	Stores transitions
 4.	Returns structured diagnostics
-
+```
 This demonstrates how the C7 Core can be used to build higher-level cognitive agents.
 
 More bindings (text, multimodal, sensor-based) can be added later.
@@ -124,7 +124,7 @@ This folder acts as the scientific notebook of the architecture.
  
 🚀 
 Running the Binding Example (AudioBrain v1)
-
+```
 You can instantiate and run a simple step loop:
 from c7_bindings.audio_brain_v1 import AudioBrainV1
 
@@ -140,7 +140,7 @@ Each call returns:
   "memory_size": ...,
   "mean_c": ...
 }
- 
+``` 
 📄 
 License
 
