@@ -1,4 +1,5 @@
- 
+This repository contains only the GRSC core engine of the C7 Architecture.
+For the full architecture and all formal documents, see: https://github.com/MercAIA/C7 
 📘 
 C7 Core — Architecture & Evolution (v0.1)
 
